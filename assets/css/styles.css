@@ -1,0 +1,34 @@
+:root {
+  --white-color: #ffffff;
+  --active-color: #eb9494;
+  --bg-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+a {
+  color: var(--white-color) !important;
+  font-size: 12px;
+}
+
+.nav-link.active {
+  color: var(--active-color) !important;
+}
+
+.card {
+  margin-top: 200px;
+  text-align: center;
+}
+.card-img-top {
+  width: 100%;
+  height: 160px;
+}
